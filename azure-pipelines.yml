@@ -22,4 +22,5 @@ steps:
     # gh --version
     # gh repo sync nextcloud/server -b master
     git remote -v
+    git fetch upstream
   displayName: 'Run a multi-line script'
