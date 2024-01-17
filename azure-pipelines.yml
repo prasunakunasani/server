@@ -22,5 +22,6 @@ steps:
     # gh --version
     # gh repo sync nextcloud/server -b master
     git remote -v
+    git remote add upstream https://github.com/nextcloud/server
     git fetch upstream
   displayName: 'Run a multi-line script'
