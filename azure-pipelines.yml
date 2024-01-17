@@ -12,7 +12,10 @@ pool:
 schedules:
 - cron: '0 * * * *'
   displayName: Hourly 0th min Sync
-
+  branches:
+    include:
+    - master
+    
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
