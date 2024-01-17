@@ -10,8 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 schedules:
-- cron: '0 * * * *'
-  displayName: Hourly 0th min Sync
+- cron: '0 */2 * * *'
+  displayName: Sync Fork every 2 hours
   branches:
     include:
     - master
