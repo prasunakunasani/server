@@ -17,8 +17,9 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     git -v
-    export GH_TOKEN=%GH_TOKEN_%
-    echo "GH_TOKEN: $(GH_TOKEN)"
-    gh --version
-    gh repo sync nextcloud/server -b master
+    # export GH_TOKEN=%GH_TOKEN_%
+    # echo "GH_TOKEN: $(GH_TOKEN)"
+    # gh --version
+    # gh repo sync nextcloud/server -b master
+    git remote -v
   displayName: 'Run a multi-line script'
